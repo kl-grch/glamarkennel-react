@@ -1,0 +1,77 @@
+.result-items {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  &__item {
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 7px 44px 0px rgba(85, 64, 106, 0.07);
+    padding: 20px;
+    width: calc(50% - 20px);
+    .item {
+      &__date {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+      }
+      &__name {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+      }
+      &__winners {
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        .winners {
+          &__dogs {
+            flex: 1;
+            ul {
+              li {
+                padding: 10px 0;
+                div span::after {
+                  content: ", ";
+                }
+                div span:last-child::after {
+                  content: ";";
+                }
+              }
+            }
+
+            .dogs {
+              &__title {
+                font-weight: 700;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .result-items {
+    flex-direction: column;
+    &__item {
+      .item {
+        &__winners {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .result-items {
+    flex-direction: column;
+    &__item {
+      width: 100%;
+    }
+  }
+}

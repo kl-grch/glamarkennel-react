@@ -1,0 +1,22 @@
+.header-dogs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  background-color: whitesmoke;
+  border-radius: 12px;
+  gap: 10px;
+  .active {
+    color: #cd4350;
+  }
+  a {
+    padding: 5px 10px;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

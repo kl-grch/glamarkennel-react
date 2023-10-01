@@ -1,0 +1,832 @@
+{
+  "2007": [
+    {
+      "date": "25.11.2007",
+      "exhibition": "Монопородная выставка",
+      "judge": "Баужес Е.",
+      "males": [
+        {
+          "dog": "Cherny Strazhnik LUCKY TICKET",
+          "titles": ["Ex1", "ЮКЧК", "ЛЮ", "ЛПП"],
+          "class": "юниоров"
+        },
+        {
+          "dog": "DUKALIS DAN iz Nevskoy Troyki",
+          "titles": ["Ex"],
+          "class": "промежуточный"
+        },
+        {
+          "dog": "VELIKOLEPNY",
+          "titles": ["Ex"],
+          "class": "открытый"
+        },
+        {
+          "dog": "VALTER Glamar",
+          "titles": ["Ex1", "КЧК", "2"],
+          "class": "победителей"
+        },
+        {
+          "dog": "Cherny Strazhnik CHEEKY CHAP",
+          "titles": ["Ex1", "ПК", "ЛК"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "Cherny Strazhnik MAESTRO MOZART",
+          "titles": ["Ex1", "ЛВ"],
+          "class": "ветеранов"
+        }
+      ],
+      "females": [
+        {
+          "dog": "LIVIA Glamar Black Gagatek",
+          "titles": ["БП", "ЛЩ"],
+          "class": "щенков"
+        },
+        {
+          "dog": "MOLLY z Hofjaru",
+          "titles": ["Ex1", "ПК", "ЛC"],
+          "class": "чемпионов"
+        }
+      ]
+    },
+    {
+      "date": "25.11.2007",
+      "exhibition": "Всероссийская выставка «ПЕТЕРБУРГСКИЕ ВСТРЕЧИ 2007»",
+      "judge": "Кулешова Е.И.",
+      "males": [
+        {
+          "dog": "VELIKOLEPNY",
+          "titles": ["Ex1", "CAC", "3"],
+          "class": "промежуточный"
+        },
+        {
+          "dog": "Cherny Strazhnik LUCKY TICKET",
+          "titles": ["Ex2", "ResCAC"],
+          "class": "промежуточный"
+        },
+        {
+          "dog": "VALTER Glamar",
+          "titles": ["Ex1", "CAC", "2"],
+          "class": "открытый"
+        },
+        {
+          "dog": "Cherny Strazhnik CHEEKY CHAP",
+          "titles": ["Ex1", "CAC", "ЛК", "BOB"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "Cherny Strazhnik MAESTRO MOZART",
+          "titles": ["Ex1", "ЛВ"],
+          "class": "ветеранов"
+        }
+      ],
+      "females": [
+        {
+          "dog": "LIVIA Glamar Black Gagatek ",
+          "titles": ["БП", "ЛЩ"],
+          "class": "щенков"
+        }
+      ]
+    },
+    {
+      "date": "18.11.2007",
+      "exhibition": "Всероссийская выставка «КУБОК ЗООСФЕРЫ 2007»",
+      "judge": "Козина Е.С.",
+      "males": [
+        {
+          "dog": "VALTER Glamar",
+          "titles": ["Ex1", "CAC", "BOB"],
+          "class": "открытый"
+        },
+        {
+          "dog": "VELIKOLEPNY",
+          "titles": ["Ex2"],
+          "class": "открытый"
+        }
+      ],
+      "females": [
+        {
+          "dog": "LIVIA Glamar Black Gagatek",
+          "titles": ["БП", "ЛЩ"],
+          "class": "щенков"
+        },
+        {
+          "dog": "Avial Incor AFRODITA",
+          "titles": ["Ex1", "CAC", "BOS"],
+          "class": "открытый"
+        },
+        {
+          "dog": "ILONA INKA",
+          "titles": ["Ex2", "CAC"],
+          "class": "чемпионов"
+        }
+      ]
+    },
+    {
+      "date": "29.04.2007",
+      "exhibition": "Монопородная выставка",
+      "judge": "Сипягина Т.",
+      "males": [
+        {
+          "dog": "Glamar ALEN DELON",
+          "titles": ["Ex1", "БП"],
+          "class": "бэби"
+        },
+        {
+          "dog": "Cherny Strazhnik LUCKY TICKET",
+          "titles": ["Ex1", "ЮКЧК", "ЛЮ"],
+          "class": "юниоров"
+        },
+        {
+          "dog": "VELIKOLEPNY",
+          "titles": ["Ex1", "КЧК"],
+          "class": "промежуточный"
+        },
+        {
+          "dog": "ЖЕТЕМ ИЗ НЕВСКОЙ ТРОЙКИ",
+          "titles": ["Ex1", "КЧК"],
+          "class": "открытый"
+        },
+        {
+          "dog": "VALTER Glamar",
+          "titles": ["Ex1", "КЧК"],
+          "class": "победителей"
+        },
+        {
+          "dog": "Cherny Strazhnik CHEEKY CHAP",
+          "titles": ["Ex1", "ПК", "ЛК", "ЛПП"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "Cherny Strazhnik MAESTRO MOZART",
+          "titles": ["Ex1", "ЛВ"],
+          "class": "ветеранов"
+        }
+      ],
+      "females": [
+        {
+          "dog": "Evial Inkor AFRODITA",
+          "titles": ["VG"],
+          "class": "юниоров"
+        },
+        {
+          "dog": "SHOW GIRL iz Nevskoy Troyki",
+          "titles": ["Ex1", "КЧК"],
+          "class": "открытый"
+        },
+        {
+          "dog": "PERVAYA LADY iz Nevskoy Troyki",
+          "titles": ["Ex1", "КЧК"],
+          "class": "победителей"
+        },
+        {
+          "dog": "ILONA INКА",
+          "titles": ["Ex2", "СС"],
+          "class": "победителей"
+        },
+        {
+          "dog": "HAIFA iz Nevskoy Troyki ",
+          "titles": ["Ex1", "ПК", "ЛС"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "MOLLY z Hofjaru",
+          "titles": ["Ex2", "СС"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "GLAFIRA",
+          "titles": ["Ex1", "ЛВ"],
+          "class": "ветеранов"
+        }
+      ]
+    }
+  ],
+  "2008": [
+    {
+      "date": "29.06.2008",
+      "exhibition": "Международная выставка «БЕЛЫЕ НОЧИ 2008 - 2»",
+      "judge": "Душан Паунович",
+      "males": [
+        {
+          "dog": "Эвиал Инкор Бургомистр",
+          "titles": ["Ex1", "JCAC"],
+          "class": "юниоров"
+        },
+        {
+          "dog": "Cherny Strazhnik LUCKY TICKET",
+          "titles": ["Ex1", "САС"],
+          "class": "промежуточный"
+        },
+        {
+          "dog": "VALTER Glamar",
+          "titles": ["Ex2", "ResCAC"],
+          "class": "открытый"
+        },
+        {
+          "dog": "VILLI VEIN",
+          "titles": ["Ex1", "CAC", "ResCACIB"],
+          "class": "открытый"
+        },
+        {
+          "dog": "Cherny Strazhnik CHEEKY CHAP",
+          "titles": ["Ex1", "CAC", "CACIB", "BOB"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "Cherny Strazhnik MAESTRO MOZART",
+          "titles": ["Ex1", "ЛВ"],
+          "class": "ветеранов"
+        }
+      ],
+      "females": [
+        {
+          "dog": "Glamar AYDANA GIZMAH",
+          "titles": ["Ex1", "CAC"],
+          "class": "промежуточный"
+        },
+        {
+          "dog": "ILONA INKA",
+          "titles": ["Ex"],
+          "class": "открытый"
+        },
+        {
+          "dog": "MATA HARI Grand Favorit",
+          "titles": ["Ex1", "CAC", "CACIB", "BOS"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "PERVAYA LADY iz Nevskoy Troyki",
+          "titles": ["Ex2", "ResCAC", "ResCACIB"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "SHOW GIRL iz Nevskoy Troyki",
+          "titles": ["Ex4"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "VIVA VERITAS",
+          "titles": ["Ex3"],
+          "class": "чемпионов"
+        }
+      ]
+    },
+    {
+      "date": "28.06.2008",
+      "exhibition": "Международная выставка «БЕЛЫЕ НОЧИ 2008 - 1»",
+      "judge": "Белкин А.С.",
+      "males": [
+        {
+          "dog": "Cherny Strazhnik LUCKY TICKET",
+          "titles": ["Ex1", "CAC"],
+          "class": "промежуточный"
+        },
+        {
+          "dog": "VALTER Glamar",
+          "titles": ["Ex1", "САС", "ResCACIB"],
+          "class": "открытый"
+        },
+        {
+          "dog": "VILLI VEIN",
+          "titles": ["Ex2", "ResCAC"],
+          "class": "открытый"
+        },
+        {
+          "dog": "Cherny Strazhnik CHEEKY CHAP",
+          "titles": ["Ex1", "CAC", "CACIB", "BOB"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "Cherny Strazhnik MAESTRO MOZART",
+          "titles": ["Ex1", "ЛВ"],
+          "class": "ветеранов"
+        }
+      ],
+      "females": [
+        {
+          "dog": "Glamar AYDANA GIZMAH",
+          "titles": ["Ex1", "CAC"],
+          "class": "промежуточный"
+        },
+        {
+          "dog": "ILONA INKA",
+          "titles": ["Ex1", "CAC"],
+          "class": "открытый"
+        },
+        {
+          "dog": "MATA HARI Grand Favorit",
+          "titles": ["Ex1", "CAC", "CACIB", "BOS"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "PERVAYA LADY iz Nevskoy Troyki",
+          "titles": ["Ex2", "ResCAC", "ResCACIB"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "SHOW GIRL iz Nevskoy Troyki",
+          "titles": ["Ex3"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "VIVA VERITAS",
+          "titles": ["Ex4"],
+          "class": "чемпионов"
+        }
+      ]
+    },
+    {
+      "date": "22.06.2008",
+      "exhibition": "Монопородная выставка. Великий Новгород.",
+      "judge": "Марианне Холм (Финляндия)",
+      "males": [
+        {
+          "dog": "VALTER Glamar",
+          "titles": ["Ex1", "КЧК", "ЛК", "ЛПП"],
+          "class": "победителей"
+        }
+      ],
+      "females": [
+        {
+          "dog": "Glamar VICKOL'",
+          "titles": ["Ex1", "БП"],
+          "class": "щенков"
+        },
+        {
+          "dog": "SHOW GIRL iz Nevskoy Troyki",
+          "titles": ["Ex1", "КЧК", "ЛС"],
+          "class": "чемпионов"
+        }
+      ]
+    },
+    {
+      "date": "21.06.2008",
+      "exhibition": "Всероссийская выставка «Царскосельский карнавал» СПб РОО КПЦ «Сириус» (Пушкин)",
+      "judge": "",
+      "males": [
+        {
+          "dog": "Эвиал Инкор БУРГОМИСТР",
+          "titles": ["Ex1", "ЮСАС", "ЛЮ"],
+          "class": "юниоров"
+        }
+      ],
+      "females": [
+        {
+          "dog": "Glamar AYDANA GIZMAH",
+          "titles": ["Ex1", "САС", "ЛС", "ЛПП"],
+          "class": "промежуточный"
+        },
+        {
+          "dog": "Императрица из Невской Тройки",
+          "titles": ["Ex1", "САС"],
+          "class": "открытый"
+        },
+        {
+          "dog": "ILONA INKA",
+          "titles": ["Ex1", "САС"],
+          "class": "чемпионов"
+        }
+      ]
+    },
+    {
+      "date": "27.01.2008",
+      "exhibition": "Невская Рапсодия",
+      "judge": "Николаев Л. Л.",
+      "females": [
+        {
+          "dog": "Glamar AYDANA GIZMAH",
+          "titles": ["Ex1", "CW", "ЮСАС", "ЛС", "ЛЮ"],
+          "class": "юниоров"
+        },
+        {
+          "dog": "IDEALNAYA LADY Is Nevskoy Troyki",
+          "titles": ["Ex"],
+          "class": "юниоров"
+        },
+        {
+          "dog": "WONDERFUL iz Nevskoy Troyki",
+          "titles": ["Ex1", "CW", "САС", "ЛК", "ЛПП"],
+          "class": "открытый"
+        }
+      ]
+    },
+    {
+      "date": "26.01.2008",
+      "exhibition": "Созвездие",
+      "judge": "Каширин Н.",
+      "females": [
+        {
+          "dog": "Glamar AYDANA GIZMAH",
+          "titles": ["Ex1", "CW", "ЮСАС", "ЛС", "ЛЮ", "ЛПП"],
+          "class": "юниоров"
+        },
+        {
+          "dog": "IDEALNAYA LADY Is Nevskoy Troyki",
+          "titles": ["Ex"],
+          "class": "открытый"
+        }
+      ]
+    }
+  ],
+  "2009": [
+    {
+      "date": "29.08.2009",
+      "exhibition": "Международная выставка «Псковский сувенир 2009». Псков",
+      "judge": "Avi Marshak (Израиль)",
+      "males": [
+        {
+          "dog": "GLOBETROTTER Grand Calvera",
+          "titles": ["Ex1", "CAC", "CACIB", "BOB"],
+          "class": "промежуточный"
+        },
+        {
+          "dog": "VALTER Glamar",
+          "titles": ["Ex1", "CAC", "ResCACIB"],
+          "class": "открытый"
+        }
+      ]
+    },
+    {
+      "date": "22.08.2009",
+      "exhibition": "Международная выставка «ГОСПОДИН ВЕЛИКИЙ НОВГОРОД 2009». Великий Новгород",
+      "judge": "Петер Кроль (Чехия)",
+      "males": [
+        {
+          "dog": "Cherny Strazhnik VALDAR",
+          "titles": ["Ex1", "CAC", "CACIB"],
+          "class": "открытый"
+        },
+        {
+          "dog": "VALTER Glamar",
+          "titles": ["Ex2", "ResCAC", "ResCACIB"],
+          "class": "открытый"
+        }
+      ],
+      "females": [
+        {
+          "dog": "Glamar VICKOL'",
+          "titles": ["Ex1", "CAC", "CACIB"],
+          "class": "промежуточный"
+        },
+        {
+          "dog": "SHOW GIRL iz Nevskoy Troyki",
+          "titles": ["Ex1", "CAC", "ResCACIB"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "MATA HARI Grand Favorit",
+          "titles": ["Ex1", "BOB"],
+          "class": "ветеранов"
+        }
+      ]
+    },
+    {
+      "date": "28.06.2009",
+      "exhibition": "Международная выставка «БЕЛЫЕ НОЧИ 2009 - 2». Санкт-Петербург",
+      "judge": "Johannes L. Williams (Нидерланды)",
+      "males": [
+        {
+          "dog": "GLOBETROTTER Grand Calvera",
+          "titles": ["Ex1", "CAC", "ResCACIB"],
+          "class": "промежуточный"
+        },
+        {
+          "dog": "VALTER Glamar",
+          "titles": ["Ex1", "CAC"],
+          "class": "открытый"
+        },
+        {
+          "dog": "Cherny Strazhnik CHEEKY CHAP",
+          "titles": ["Ex1", "CAC", "CACIB", "BOB"],
+          "class": "чемпионов"
+        }
+      ],
+      "females": [
+        {
+          "dog": "Glamar VICKOL'",
+          "titles": ["Ex1", "CAC", "CACIB"],
+          "class": "промежуточный"
+        },
+        {
+          "dog": "Glamar AYDANA GIZMAH",
+          "titles": ["Ex1", "CAC"],
+          "class": "открытый"
+        },
+        {
+          "dog": "SHOW GIRL iz Nevskoy Troyki",
+          "titles": ["Ex1", "CAC", "ResCACIB"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "MATA HARI Grand Favorit",
+          "titles": ["Ex1"],
+          "class": "ветеранов"
+        }
+      ]
+    },
+    {
+      "date": "27.06.2009",
+      "exhibition": "Международная выставка «БЕЛЫЕ НОЧИ 2009 - 1». Санкт-Петербург",
+      "judge": "Anella Cooper (Канада)",
+      "males": [
+        {
+          "dog": "GLOBETROTTER Grand Calvera",
+          "titles": ["VG"],
+          "class": "промежуточный"
+        },
+        {
+          "dog": "VALTER Glamar",
+          "titles": ["Ex1", "CAC", "ResCACIB"],
+          "class": "открытый"
+        },
+        {
+          "dog": "Cherny Strazhnik CHEEKY CHAP",
+          "titles": ["Ex1", "CAC", "CACIB", "BOB"],
+          "class": "чемпионов"
+        }
+      ],
+      "females": [
+        {
+          "dog": "Glamar VICKOL'",
+          "titles": ["Ex1", "CAC", "ResCACIB"],
+          "class": "промежуточный"
+        },
+        {
+          "dog": "Glamar AYDANA GIZMAH",
+          "titles": ["Ex1", "CAC", "CACIB"],
+          "class": "открытый"
+        },
+        {
+          "dog": "SHOW GIRL iz Nevskoy Troyki",
+          "titles": ["VG"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "MATA HARI Grand Favorit",
+          "titles": ["VG"],
+          "class": "ветеранов"
+        }
+      ]
+    },
+    {
+      "date": "21.06.2009",
+      "exhibition": "Монопородная выставка. Великий Новгород",
+      "judge": "П. Реханик (Чехия)",
+      "males": [
+        {
+          "dog": "GLOBETROTTER Grand Calvera",
+          "titles": ["Ex1", "КЧК", "ЛК"],
+          "class": "промежуточный"
+        },
+        {
+          "dog": "VALTER Glamar",
+          "titles": ["Ex1", "СС"],
+          "class": "чемпионов"
+        }
+      ],
+      "females": [
+        {
+          "dog": "Glamar VICKOL'",
+          "titles": ["Ex1", "СС"],
+          "class": "промежуточный"
+        },
+        {
+          "dog": "SHOW GIRL iz Nevskoy Troyki",
+          "titles": ["Ex1", "КЧК", "ЛС"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "MATA HARI Grand Favorit",
+          "titles": ["Ex1", "ЛВ", "ЛПП"],
+          "class": "ветеранов"
+        }
+      ]
+    }
+  ],
+  "2010": [
+    {
+      "date": "20.06.2010",
+      "exhibition": "Монопородная выставка. Великий Новгород",
+      "judge": "Тина Шулце (Латвия)",
+      "males": [
+        {
+          "dog": "LONDON CHERNI STRAZHNIK Snowblack",
+          "titles": ["большая перспектива 1", "лучший щенок породы"],
+          "class": "щенков"
+        },
+        {
+          "dog": "VALTER Glamar",
+          "titles": ["VG"],
+          "class": "победителей"
+        },
+        {
+          "dog": "Cherny Strazhnik CHEEKY CHAP",
+          "titles": ["Ex1", "ЛК"],
+          "class": "чемпионов НКП"
+        }
+      ],
+      "females": [
+        {
+          "dog": "UISCE BEATHA GLAMAR Grand Calvera",
+          "titles": ["ЮПК", "ЛЮ"],
+          "class": "юниоров"
+        },
+        {
+          "dog": "Glamar VICKOL'",
+          "titles": ["VG"],
+          "class": "открытый"
+        },
+        {
+          "dog": "SHOW GIRL iz Nevskoy Troyki",
+          "titles": ["Ex1", "ЛС"],
+          "class": "чемпионов НКП"
+        },
+        {
+          "dog": "MATA HARI Grand Favorit",
+          "titles": ["Ex1", "ЛВ", "ЛПП"],
+          "class": "ветеранов"
+        }
+      ]
+    },
+    {
+      "date": "13.06.2010",
+      "exhibition": "Международная выставка «БЕЛЫЕ НОЧИ 2010 - 2». Санкт-Петербург",
+      "judge": "Никитина Людмила (Россия)",
+      "males": [
+        {
+          "dog": "LONDON CHERNI STRAZHNIK Snowblack",
+          "titles": ["большая перспектива 1", "лучший щенок породы"],
+          "class": "щенков"
+        },
+        {
+          "dog": "VALTER Glamar",
+          "titles": ["Ex"],
+          "class": "открытый"
+        },
+        {
+          "dog": "GLOBETROTTER BLACK Grand Calvera",
+          "titles": ["Ex1", "CAC", "CACIB", "ЛК", "ЛПП"],
+          "class": "открытый"
+        },
+        {
+          "dog": "Cherny Strazhnik CHEEKY CHAP",
+          "titles": ["Ex1", "CAC", "ResCACIB"],
+          "class": "чемпионов"
+        }
+      ],
+      "females": [
+        {
+          "dog": "UISCE BEATHA GLAMAR Grand Calvera",
+          "titles": ["Ex1", "JCAC", "ЛЮ"],
+          "class": "юниоров"
+        },
+        {
+          "dog": "Glamar VICKOL'",
+          "titles": ["Ex1", "CAC"],
+          "class": "открытый"
+        },
+        {
+          "dog": "SHOW GIRL iz Nevskoy Troyki",
+          "titles": ["Ex1", "CAC", "CACIB", "ЛС"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "MATA HARI Grand Favorit",
+          "titles": ["Ex1", "ЛВ"],
+          "class": "ветеранов"
+        }
+      ]
+    },
+    {
+      "date": "12.06.2010",
+      "exhibition": "Международная выставка «БЕЛЫЕ НОЧИ 2010 - 1». Санкт-Петербург",
+      "judge": "Stefan Popov (Болгария)",
+      "males": [
+        {
+          "dog": "LONDON CHERNI STRAZHNIK Snowblack",
+          "titles": ["большая перспектива 1", "лучший щенок породы"],
+          "class": "щенков"
+        },
+        {
+          "dog": "VALTER Glamar",
+          "titles": ["Ex1", "CAC", "ResCACIB"],
+          "class": "открытый"
+        },
+        {
+          "dog": "GLOBETROTTER BLACK Grand Calvera",
+          "titles": ["Ex2", "ResCAC"],
+          "class": "открытый"
+        },
+        {
+          "dog": "Cherny Strazhnik CHEEKY CHAP",
+          "titles": ["Ex1", "CAC", "CACIB", "ЛК", "ЛПП"],
+          "class": "чемпионов"
+        }
+      ],
+      "females": [
+        {
+          "dog": "UISCE BEATHA GLAMAR Grand Calvera",
+          "titles": ["Ex1", "JCAC", "ЛЮ"],
+          "class": "юниоров"
+        },
+        {
+          "dog": "Glamar VICKOL'",
+          "titles": ["Ex1", "CAC", "ResCACIB"],
+          "class": "открытый"
+        },
+        {
+          "dog": "Evial Inkor BAGIRA",
+          "titles": ["Ex2", "ResCAC"],
+          "class": "открытый"
+        },
+        {
+          "dog": "SHOW GIRL iz Nevskoy Troyki",
+          "titles": ["Ex1", "CAC", "CACIB", "ЛС"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "MATA HARI Grand Favorit",
+          "titles": ["Ex1", "ЛВ"],
+          "class": "ветеранов"
+        }
+      ]
+    },
+    {
+      "date": "07.02.2010",
+      "exhibition": "Монопородная выставка. Санкт-Петербург",
+      "judge": "Rafael Malo Alcrudo (Испания)",
+      "males": [
+        {
+          "dog": "Glamar EXCALIBUR",
+          "titles": ["большая перспектива 1", "лучший бэби породы"],
+          "class": "бэби"
+        },
+        {
+          "dog": "VALTER Glamar",
+          "titles": ["Ex1", "ПК"],
+          "class": "открытый"
+        },
+        {
+          "dog": "Evial Inkor BURGOMISTR",
+          "titles": ["VG"],
+          "class": "победителей"
+        },
+        {
+          "dog": "Cherny Strazhnik CHEEKY CHAP",
+          "titles": ["Ex1", "ЛК", "ЛПП"],
+          "class": "чемпионов НКП"
+        }
+      ],
+      "females": [
+        {
+          "dog": "UISCE BEATHA GLAMAR Grand Calvera",
+          "titles": [
+            "большая перспектива 1",
+            "лучший щенок породы",
+            "лучший щенок выставки"
+          ],
+          "class": "щенков"
+        },
+        {
+          "dog": "Glamar VICKOL'",
+          "titles": ["Ex1", "ПК"],
+          "class": "открытый"
+        },
+        {
+          "dog": "Glamar AYDANA GIZMAH",
+          "titles": ["Ex1", "КЧК"],
+          "class": "чемпионов"
+        },
+        {
+          "dog": "SHOW GIRL iz Nevskoy Troyki",
+          "titles": ["Ex1", "ЛС"],
+          "class": "чемпионов НКП"
+        },
+        {
+          "dog": "MATA HARI Grand Favorit",
+          "titles": ["Ex1", "ЛВ"],
+          "class": "ветеранов"
+        }
+      ]
+    }
+  ],
+  "2021": [
+    {
+      "date": "10.07.2021",
+      "exhibition": "Международная выставка собак всех пород «Переславль 2021» / IDS «Pereslavl 2021» CACIB FCI",
+      "judge": "Zlatko Jojkić, Сербия / Serbia"
+    },
+    {
+      "date": "11.07.2021",
+      "exhibition": "Международная выставка собак всех пород «Плещеево Озеро 2021» / IDS «Plescheevo Lake 2021», CACIB FCI",
+      "judge": "Nikola Volić, Сербия / Serbia",
+      "female": [
+        {
+          "dog": "Sterne Grinsen GLAFIRA Glamar",
+          "titles": ["1 EX", "CW", "CH RKF", "CAC", "CACIB", "BOS"]
+        }
+      ]
+    }
+  ]
+}

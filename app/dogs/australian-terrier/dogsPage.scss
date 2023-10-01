@@ -1,0 +1,49 @@
+.dogs {
+  &__items {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    .items {
+      &__item {
+        width: 300px;
+        height: 300px;
+        border-radius: 12px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 20px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        box-shadow: 1px 1px 0px 0px rgb(189, 188, 188);
+        .item {
+          &__title {
+            color: #fff;
+            text-shadow: 1px -1px 5px #000;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .dogs {
+    &__items {
+      .items {
+        &__item {
+          width: 215px;
+          height: 215px;
+        }
+      }
+    }
+  }
+}

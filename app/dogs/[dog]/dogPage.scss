@@ -1,0 +1,79 @@
+@mixin style-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  span {
+    font-weight: 400;
+  }
+  @media (max-width: 575.98px) {
+    font-size: 18px;
+  }
+}
+
+.dog {
+  margin-top: 20px;
+  &__item {
+    .item {
+      &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        .info {
+          &__breed {
+            @include style-text;
+          }
+          &__gender {
+            @include style-text;
+          }
+          &__date-birth {
+            @include style-text;
+          }
+          &__titles {
+            @include style-text;
+            span::after {
+              content: ", ";
+            }
+            span:last-child::after {
+              content: ";";
+            }
+          }
+          &__location {
+            @include style-text;
+          }
+          &__breeder {
+            @include style-text;
+          }
+          &__owner {
+            @include style-text;
+          }
+        }
+      }
+      &__image {
+        img {
+          border-radius: 12px;
+        }
+        .image {
+          &__galery {
+            margin-top: 10px;
+            display: flex;
+            gap: 10px;
+            overflow: hidden;
+            max-width: 700px;
+            overflow-x: scroll;
+          }
+          &__galery::-webkit-scrollbar {
+            width: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .item__image {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,26 @@
+.ear-shaping-method {
+  h3 {
+    margin-top: 50px;
+  }
+  .images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  img {
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .ear-shaping-method {
+    img {
+      width: 200px;
+      height: auto;
+    }
+  }
+}
