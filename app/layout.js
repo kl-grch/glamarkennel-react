@@ -7,8 +7,46 @@ import { Comfortaa } from "next/font/google";
 const comfortaa = Comfortaa({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Glamar | Гламар",
+  title: {
+    template: "%s | Glamar | Гламар",
+    default: "Glamar | Гламар",
+  },
   description: "Питомник черных шнауцеров",
+  keywords: [
+    "Гламар",
+    "Ukfvfh",
+    "Glamar",
+    "Пдфьфк",
+    "питомник",
+    "шнауцеры",
+    "Glamarkennel",
+    "Пдфьфклуттуд",
+    "питомник СПБ",
+    "черный шнауцер",
+    "kennel",
+    "питомник",
+    "питомник гламар",
+    "Glamar kennel",
+    "Пдфьфк луттуд",
+    "glamar-kennel",
+  ],
+  openGraph: {
+    title: "Glamar | Гламар",
+    description: "Питомник черных шнауцеров",
+    url: "https://glamarkennel.com/",
+    siteName: "Glamar | Гламар",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Glamar | Гламар",
+    description: "Питомник черных шнауцеров",
+    url: "https://glamarkennel.com/",
+  },
+  other: {
+    appleMobileWebAppTitle: "Glamar",
+    appleMobileWebAppCapable: "yes",
+  },
 };
 
 export default function RootLayout({ children }) {

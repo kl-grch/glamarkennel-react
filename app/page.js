@@ -6,7 +6,6 @@ import "./homePage.scss";
 export default function Home() {
   return (
     <div className="home-page">
-
       <div className="home-page__title">
         <h1 className="title__title">
           Питомник шнауцеров и австралийских терьеров
@@ -25,7 +24,6 @@ export default function Home() {
           height={590}
         />
       </div>
-      
     </div>
   );
 }
