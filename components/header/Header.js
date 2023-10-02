@@ -6,6 +6,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import { useState } from "react";
+import logo from "/public/images/logo.png";
 
 const linksHeader = [
   {
@@ -42,7 +43,7 @@ export default function Header() {
       <div className="header__nav">
         <div className="nav__logo">
           <Link href={"/"}>
-            <Image src="/images/logo.png" alt="logo" width={113} height={30} />
+            <Image src={logo} alt="logo" />
           </Link>
         </div>
         <nav className="nav__links">
