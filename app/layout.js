@@ -43,10 +43,6 @@ export const metadata = {
     description: "Питомник черных шнауцеров",
     url: "https://glamarkennel.com/",
   },
-  other: {
-    appleMobileWebAppTitle: "Glamar",
-    appleMobileWebAppCapable: "yes",
-  },
 };
 
 export default function RootLayout({ children }) {
