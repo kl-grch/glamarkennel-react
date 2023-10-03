@@ -62,6 +62,9 @@
             overflow: hidden;
             max-width: 700px;
             overflow-x: scroll;
+            img {
+              cursor: pointer;
+            }
           }
           &__galery::-webkit-scrollbar {
             width: 0;

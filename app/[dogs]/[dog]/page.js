@@ -4,7 +4,6 @@ import { useDogs } from "@/hooks/useDogs";
 import "./dogPage.scss";
 import Image from "next/image";
 import Loader from "@/components/loader/Loader";
-import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 // export async function generateStaticParams() {
@@ -21,17 +20,15 @@ export default function DogPage({ params }) {
   const { data } = useDogs();
   const { dog } = params;
 
-  const [mainImg, setMainImg] = useState();
-
-  // function updateBackgroungImg(img, breed) {
-  //   if (img === "" && breed === "schnauzer") {
-  //     return "/images/dogs/noPhoto/schnauzer_no_photo.png";
-  //   } else if (img === "" && breed === "australian_terrier") {
-  //     return "/images/dogs/noPhoto/australian_terier_no_photo.png";
-  //   } else {
-  //     return img;
-  //   }
-  // }
+  function updateBackgroungImg(img, breed) {
+    if (img === "" && breed === "schnauzer") {
+      return "/images/dogs/noPhoto/schnauzer_no_photo.png";
+    } else if (img === "" && breed === "australian_terrier") {
+      return "/images/dogs/noPhoto/australian_terier_no_photo.png";
+    } else {
+      return img;
+    }
+  }
 
   return (
     <div className="dog">
@@ -95,33 +92,14 @@ export default function DogPage({ params }) {
                     <Col lg={6} md={12}>
                       <div className="item__image">
                         <Image
-                          // src={() => {
-                          //   if (img === "" && breed === "schnauzer") {
-                          //     return "/images/dogs/noPhoto/schnauzer_no_photo.png";
-                          //   } else if (
-                          //     img === "" &&
-                          //     breed === "australian_terrier"
-                          //   ) {
-                          //     return "/images/dogs/noPhoto/australian_terier_no_photo.png";
-                          //   } else {
-                          //     return img;
-                          //   }
-                          // }}
-                          src={() => {
-                            if (img === "" && breed === "schnauzer") {
-                              return "/images/dogs/noPhoto/schnauzer_no_photo.png";
-                            } else if (
-                              img === "" &&
-                              breed === "australian_terrier"
-                            ) {
-                              return "/images/dogs/noPhoto/australian_terier_no_photo.png";
-                            } else {
-                              return img;
-                            }
-                          }}
+                          src={updateBackgroungImg(
+                            dogFilter.imgMain,
+                            dogFilter.breed
+                          )}
                           alt={dogFilter.name}
                           width={400}
                           height={300}
+                          id="img"
                           style={{
                             width: "100%",
                             height: "auto",
@@ -143,15 +121,20 @@ export default function DogPage({ params }) {
                                 width: "100px",
                               }}
                               onClick={() =>
-                                setMainImg(() => dogFilter.imgMain)
+                                (document.querySelector("#img").srcset =
+                                  dogFilter.imgMain)
                               }
                             />
-
                             {dogFilter.images.map((img, i) => {
                               return (
                                 <Image
                                   key={i}
                                   src={`/images/dogs/${dogFilter.id}/${img}`}
+                                  onClick={() =>
+                                    (document.querySelector(
+                                      "#img"
+                                    ).srcset = `/images/dogs/${dogFilter.id}/${img}`)
+                                  }
                                   alt={img}
                                   width={100}
                                   height={100}
@@ -160,11 +143,6 @@ export default function DogPage({ params }) {
                                     height: "100px",
                                     width: "100px",
                                   }}
-                                  onClick={() =>
-                                    setMainImg(
-                                      `/images/dogs/${dogFilter.id}/${img}`
-                                    )
-                                  }
                                 />
                               );
                             })}
