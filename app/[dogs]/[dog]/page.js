@@ -6,16 +6,6 @@ import Image from "next/image";
 import Loader from "@/components/loader/Loader";
 import { Container, Row, Col } from "react-bootstrap";
 
-// export async function generateStaticParams() {
-//   const dogs = await fetch("/api/dogs.json").then((res) => res.json());
-
-//   return dogs.dogs.map((itemDog) => ({
-//     dog: itemDog.id,
-//   }));
-// }
-
-// export const dynamicParams = true;
-
 export default function DogPage({ params }) {
   const { data } = useDogs();
   const { dog } = params;
