@@ -19,17 +19,17 @@ export default function HeaderDogs() {
         Все собаки
       </Link>
       <Link
-        href="/dogs/schnauzer"
+        href="/schnauzer"
         className={clsx({
-          active: pathname.startsWith("/dogs/schnauzer"),
+          active: pathname.startsWith("/schnauzer"),
         })}
       >
         Шнауцер
       </Link>
       <Link
-        href="/dogs/australian-terrier"
+        href="/australian_terrier"
         className={clsx({
-          active: pathname.startsWith("/dogs/australian-terrier"),
+          active: pathname.startsWith("/australian_terrier"),
         })}
       >
         Австралийский терьер

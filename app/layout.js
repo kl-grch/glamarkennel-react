@@ -36,12 +36,14 @@ export const metadata = {
     url: "https://glamarkennel.com/",
     siteName: "Glamar | Гламар",
     type: "website",
+    images: ["/images/metainfo/opengraph-image.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Glamar | Гламар",
     description: "Питомник черных шнауцеров",
     url: "https://glamarkennel.com/",
+    images: ["/images/metainfo/twitter-image.png"],
   },
 };
 

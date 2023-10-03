@@ -5,8 +5,9 @@ import { useDogs } from "@/hooks/useDogs";
 import "./dogsPage.scss";
 import Link from "next/link";
 
-export default function DogsPageShnauzer() {
+export default function DogsPage({ params }) {
   const { data } = useDogs();
+  const { dogs } = params;
 
   function updateBackgroungImg(img, breed) {
     if (img === "" && breed === "schnauzer") {
@@ -24,7 +25,15 @@ export default function DogsPageShnauzer() {
         <Loader />
       ) : (
         data.dogs
-          .filter((item) => item.breed === "schnauzer")
+          .filter((item) => {
+            if (dogs === "schnauzer") {
+              return item.breed === "schnauzer";
+            } else if (dogs === "australian_terrier") {
+              return item.breed === "australian_terrier";
+            } else {
+              return item.breed !== "";
+            }
+          })
           .map((item) => (
             <Link key={item.id} href={`/dogs/${item.id}`}>
               <div

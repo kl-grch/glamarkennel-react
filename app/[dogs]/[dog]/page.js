@@ -23,15 +23,15 @@ export default function DogPage({ params }) {
 
   const [mainImg, setMainImg] = useState();
 
-  function updateImgMain(src, breed) {
-    if (src === "" && breed === "australian_terrier") {
-      return "/images/dogs/noPhoto/australian_terier_no_photo.png";
-    } else if (src === "" && breed === "schnauzer") {
-      return "/images/dogs/noPhoto/schnauzer_no_photo.png";
-    } else {
-      return src;
-    }
-  }
+  // function updateBackgroungImg(img, breed) {
+  //   if (img === "" && breed === "schnauzer") {
+  //     return "/images/dogs/noPhoto/schnauzer_no_photo.png";
+  //   } else if (img === "" && breed === "australian_terrier") {
+  //     return "/images/dogs/noPhoto/australian_terier_no_photo.png";
+  //   } else {
+  //     return img;
+  //   }
+  // }
 
   return (
     <div className="dog">
@@ -92,13 +92,33 @@ export default function DogPage({ params }) {
                         </div>
                       </div>
                     </Col>
-                    <Col lg={6}>
+                    <Col lg={6} md={12}>
                       <div className="item__image">
                         <Image
-                          src={updateImgMain(
-                            dogFilter.imgMain,
-                            dogFilter.breed
-                          )}
+                          // src={() => {
+                          //   if (img === "" && breed === "schnauzer") {
+                          //     return "/images/dogs/noPhoto/schnauzer_no_photo.png";
+                          //   } else if (
+                          //     img === "" &&
+                          //     breed === "australian_terrier"
+                          //   ) {
+                          //     return "/images/dogs/noPhoto/australian_terier_no_photo.png";
+                          //   } else {
+                          //     return img;
+                          //   }
+                          // }}
+                          src={() => {
+                            if (img === "" && breed === "schnauzer") {
+                              return "/images/dogs/noPhoto/schnauzer_no_photo.png";
+                            } else if (
+                              img === "" &&
+                              breed === "australian_terrier"
+                            ) {
+                              return "/images/dogs/noPhoto/australian_terier_no_photo.png";
+                            } else {
+                              return img;
+                            }
+                          }}
                           alt={dogFilter.name}
                           width={400}
                           height={300}
