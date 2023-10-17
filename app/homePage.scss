@@ -31,7 +31,6 @@
 }
 
 
-
 @media (max-width: 991.98px) {
   .home-page {
     flex-direction: column;
@@ -52,20 +51,6 @@
     img {
       width: 100%;
       height: auto;
-    }
-  }
-}
-
-@media (max-width: 575.98px) {
-  .home-page {
-    padding: 20px 0;
-    &__title {
-      .title {
-        &__title {
-          line-height: 40px;
-          font-size: 36px;
-        }
-      }
     }
   }
 }
