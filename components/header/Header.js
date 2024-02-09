@@ -25,10 +25,10 @@ const linksHeader = [
     name: "Статьи",
     link: "/articles",
   },
-  {
-    name: "О нас",
-    link: "/about",
-  },
+  // {
+  //   name: "О нас",
+  //   link: "/about",
+  // },
   {
     name: "Контакты",
     link: "/contacts",

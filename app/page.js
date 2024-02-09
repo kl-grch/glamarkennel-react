@@ -8,7 +8,7 @@ export default function Home() {
     <div className="home-page">
       <div className="home-page__title">
         <h1 className="title__title">
-          Питомник шнауцеров и австралийских терьеров
+          Питомник чёрных шнауцеров и австралийских шелковистых терьеров
         </h1>
         <div className="title__descr">
           Более 20 лет занимаемся разведением собак с устойчивой психикой, для
