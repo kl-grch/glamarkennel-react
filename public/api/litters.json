@@ -4,42 +4,45 @@
       "date": "12.16.1997",
       "litter": "K/K",
       "parents": {
-        "father": "CASAR v.d. Alten 38",
-        "mother": "GLAFIRA"
+        "father": { "name": "CASAR v.d. Alten 38" },
+        "mother": { "name": "GLAFIRA", "link": "/dogs/1" }
       },
       "puppies": {
         "males": [
-          "KALIF",
-          "KAREL",
-          "KAYN",
-          "KRISTOFER",
-          "KALIOSTRO",
-          "KOLUMB",
-          "KSENOFONT"
+          { "name": "KALIF" },
+          { "name": "KAREL" },
+          { "name": "KAYN" },
+          { "name": "KRISTOFER" },
+          { "name": "KALIOSTRO" },
+          { "name": "KOLUMB" },
+          { "name": "KSENOFONT" }
         ],
-        "females": ["KSENIA", "KLEOPATRA"]
+        "females": [
+          { "name": "KSENIA", "link": "/dogs/2" },
+          { "name": "KLEOPATRA" }
+        ]
       }
     },
     {
       "date": "20.02.1999",
       "litter": "M/M",
       "parents": {
-        "father": "YARN v. Hilbelinkhof",
-        "mother": "GLAFIRA"
+        "father": { "name": "YARN v. Hilbelinkhof" },
+        "mother": { "name": "GLAFIRA", "link": "/dogs/1" }
       },
       "puppies": {
         "males": [
-          "Cherny Strazhnik MAESTRO MOZART",
-          "Cherny Strazhnik MIKLUHO MAKLAY",
-          "Cherny Strazhnik MARCHELLO",
-          "MASTROYANI",
-          "Cherny Strazhnik MACLAUD"
+          { "name": "Cherny Strazhnik MAESTRO MOZART" },
+          { "name": "Cherny Strazhnik MIKLUHO MAKLAY" },
+          { "name": "Cherny Strazhnik MARCHELLO" },
+          { "name": "MASTROYANI" },
+          { "name": "Cherny Strazhnik MACLAUD" }
         ],
         "females": [
-          "Cherny Strazhnik MERILIN MONROE",
-          "Cherny Strazhnik MATA HARI",
-          "Cherny Strazhnik MAGET NOIR",
-          "Cherny Strazhnik MAGESTA"
+          { "name": "Cherny Strazhnik MERILIN MONROE" },
+          { "name": "Cherny Strazhnik MATA HARI" },
+          { "name": "Cherny Strazhnik MAGET NOIR" },
+          { "name": "Cherny Strazhnik MAGESTA" }
         ]
       }
     },
@@ -47,47 +50,55 @@
       "date": "17.11.2000",
       "litter": "З/Z",
       "parents": {
-        "father": "GORATSY",
-        "mother": "GLAFIRA"
+        "father": { "name": "GORATSY" },
+        "mother": { "name": "GLAFIRA", "link": "/dogs/1" }
       },
       "puppies": {
-        "males": ["ZIGFRID", "ZMEY GORYNYCH", "Z..."],
-        "females": ["ZINAIDA", "ZABAVA", "ZUYOK"]
+        "males": [
+          { "name": "ZIGFRID" },
+          { "name": "ZMEY GORYNYCH" },
+          { "name": "Z..." }
+        ],
+        "females": [
+          { "name": "ZINAIDA" },
+          { "name": "ZABAVA" },
+          { "name": "ZUYOK" }
+        ]
       }
     },
     {
       "date": "...",
       "litter": "З/Z",
       "parents": {
-        "father": "Tacillan HOMME NOIR",
-        "mother": "MATA HARI Grand Favorit"
+        "father": { "name": "Tacillan HOMME NOIR" },
+        "mother": { "name": "MATA HARI Grand Favorit", "link": "/dogs/3" }
       },
       "puppies": {
         "males": [
-          "ZAKHAR iz Nevskoy Troyki",
-          "ZMEY GORYNYCH iz Nevskoy Troyki"
+          { "name": "ZAKHAR iz Nevskoy Troyki" },
+          { "name": "ZMEY GORYNYCH iz Nevskoy Troyki" }
         ],
-        "females": ["ZABAVA iz Nevskoy Troyki"]
+        "females": [{ "name": "ZABAVA iz Nevskoy Troyki" }]
       }
     },
     {
       "date": "03.08.2003",
       "litter": "Л/L",
       "parents": {
-        "father": "FRASER vom Strothbach",
-        "mother": "MATA HARI Grand Favorit"
+        "father": { "name": "FRASER vom Strothbach" },
+        "mother": { "name": "MATA HARI Grand Favorit", "link": "/dogs/3" }
       },
       "puppies": {
         "males": [
-          "LUCAS iz Nevskoy Troyki",
-          "LIDER iz Nevskoy Troyki",
-          "LINCOLN iz Nevskoy Troyki",
-          "LESNOYE CHUDO iz Nevskoy Troyki"
+          { "name": "LUCAS iz Nevskoy Troyki" },
+          { "name": "LIDER iz Nevskoy Troyki" },
+          { "name": "LINCOLN iz Nevskoy Troyki" },
+          { "name": "LESNOYE CHUDO iz Nevskoy Troyki" }
         ],
         "females": [
-          "LEGENDA iz Nevskoy Troyki",
-          "LASKOVAYA LADY iz Nevskoy Troyki",
-          "LVITSA iz Nevskoy Troyki"
+          { "name": "LEGENDA iz Nevskoy Troyki" },
+          { "name": "LASKOVAYA LADY iz Nevskoy Troyki" },
+          { "name": "LVITSA iz Nevskoy Troyki", "link": "/dogs/4" }
         ]
       }
     },
@@ -95,54 +106,54 @@
       "date": "10.02.2002",
       "litter": "В/V",
       "parents": {
-        "father": "Cherny Strazhnik O'KEY",
-        "mother": "Cherny Strazhnik MERILIN MONROE"
+        "father": { "name": "Cherny Strazhnik O'KEY" },
+        "mother": { "name": "Cherny Strazhnik MERILIN MONROE" }
       },
       "puppies": {
-        "males": ["VENIAMIN iz Nevskoy Troyki"],
-        "females": ["ILONA INKA"]
+        "males": [{ "name": "VENIAMIN iz Nevskoy Troyki" }],
+        "females": [{ "name": "V?" }]
       }
     },
     {
       "date": "23.01.2003",
       "litter": "И/I",
       "parents": {
-        "father": "RIMAS NICON ot Barbatsutsy",
-        "mother": "KSENIA"
+        "father": { "name": "RIMAS NICON ot Barbatsutsy" },
+        "mother": { "name": "KSENIA", "link": "/dogs/2" }
       },
       "puppies": {
-        "males": ["INDIANA JOINS"],
-        "females": ["V?"]
+        "males": [{ "name": "INDIANA JOINS" }],
+        "females": [{ "name": "ILONA INKA" }]
       }
     },
     {
       "date": "...",
       "litter": "M/M",
       "parents": {
-        "father": "Tacillan HOMME NOIR",
-        "mother": "Cherny Strazhnik MERILIN MONROE"
+        "father": { "name": "Tacillan HOMME NOIR" },
+        "mother": { "name": "Cherny Strazhnik MERILIN MONROE" }
       },
       "puppies": {
         "males": [
-          "MEFODIY iz Nevskoy Troyki",
-          "MOISEY iz Nevskoy Troyki",
-          "MATVEY iz Nevskoy Troyki"
+          { "name": "MEFODIY iz Nevskoy Troyki" },
+          { "name": "MOISEY iz Nevskoy Troyki" },
+          { "name": "MATVEY iz Nevskoy Troyki" }
         ],
-        "females": ["MATRYONA iz Nevskoy Troyki"]
+        "females": [{ "name": "MATRYONA iz Nevskoy Troyki" }]
       }
     },
     {
       "date": "16.11.2004",
       "litter": "X/H",
       "parents": {
-        "father": "RIMAS NICON ot Barbatsutsy",
-        "mother": "ZINAIDA"
+        "father": { "name": "RIMAS NICON ot Barbatsutsy" },
+        "mother": { "name": "ZINAIDA" }
       },
       "puppies": {
-        "males": ["H?"],
+        "males": [{ "name": "H?" }],
         "females": [
-          "HOROSHAYA DEVOCHKA iz Nevskoy Troyki",
-          "HAIFA iz Nevskoy Troyki"
+          { "name": "HOROSHAYA DEVOCHKA iz Nevskoy Troyki", "link": "/dogs/5" },
+          { "name": "HAIFA iz Nevskoy Troyki", "link": "/dogs/6" }
         ]
       }
     },
@@ -150,66 +161,113 @@
       "date": "14.01.2006",
       "litter": "В/V",
       "parents": {
-        "father": "PIFAGOR MAGISTR ot Barbatsutsy",
-        "mother": "MATA HARI Grand Favorit"
+        "father": { "name": "PIFAGOR MAGISTR ot Barbatsutsy" },
+        "mother": { "name": "MATA HARI Grand Favorit", "link": "/dogs/3" }
       },
       "puppies": {
         "males": [
-          "VALTER Glamar",
-          "VELIKOLEPNY",
-          "VILLI VEIN",
-          "VESYOLYY VETER",
-          "VELIKY MAGISTR",
-          "V?"
+          { "name": "VALTER Glamar", "link": "/dogs/11" },
+          { "name": "VELIKOLEPNY", "link": "/dogs/12" },
+          { "name": "VILLI VEIN" },
+          { "name": "VESYOLYY VETER" },
+          { "name": "VELIKY MAGISTR" },
+          { "name": "V?" }
         ],
-        "females": ["VIVA VERITAS", "VASILISA PREMUDRAYA"]
+        "females": [
+          { "name": "VIVA VERITAS", "link": "/dogs/9" },
+          { "name": "VASILISA PREMUDRAYA", "link": "/dogs/10" }
+        ]
       }
     }
   ],
   "afterRegistration": [
     {
+      "date": "16.01.2022",
+      "litter": "Т/T",
+      "parents": {
+        "father": {
+          "name": "Ljubimyi Borodach LAVR",
+          "link": "http://www.shnauzer-statnova.ru/dogs_male_Lavr.htm"
+        },
+        "mother": {
+          "name": "Sterne Grinsen GLAFIRA Glamar",
+          "link": "/dogs/33"
+        }
+      },
+      "puppies": {
+        "males": [
+          { "name": "Glamar TRUFFLE" },
+          { "name": "Glamar TABASCO TIGER" }
+        ],
+        "females": [
+          { "name": "Glamar TOFFIFEE BON FALCON" },
+          { "name": "Glamar TEQUILA TIME" },
+          { "name": "Glamar TUTTI FRUTTI" },
+          {
+            "name": "Glamar TIRAMISU",
+            "link": "https://www.masaal.it/schnauzer/ad/black-schnauzer/glamar-tiramisu/"
+          }
+        ]
+      }
+    },
+
+    {
       "date": "14.11.2020",
       "litter": "С/S",
       "parents": {
-        "father": "VENSAN IZ NEVSKOY TROYKI",
-        "mother": "STERNE GRINSEN GLAFIRA GLAMAR"
+        "father": {
+          "name": "VENSAN IZ NEVSKOY TROYKI"
+        },
+        "mother": {
+          "name": "Sterne Grinsen GLAFIRA Glamar",
+          "link": "/dogs/33"
+        }
       },
       "puppies": {
-        "males": ["Glamar SAINT PETERSBURG", "Glamar SYDNEY"],
-        "females": ["Glamar SIBERIA", "Glamar SEVILLE"]
+        "males": [
+          { "name": "Glamar SAINT PETERSBURG", "link": "/dogs/40" },
+          { "name": "Glamar SYDNEY", "link": "/dogs/42" }
+        ],
+        "females": [
+          { "name": "Glamar SIBERIA", "link": "/dogs/39" },
+          { "name": "Glamar SEVILLE", "link": "/dogs/41" }
+        ]
       }
     },
     {
       "date": "06.10.2019",
       "litter": "Р/R",
       "parents": {
-        "father": "TERRAVITUS NISTER",
-        "mother": "GLAMAR MEDHZEN KICH"
+        "father": { "name": "TERRAVITUS NISTER" },
+        "mother": { "name": "GLAMAR MEDHZEN KICH" }
       },
       "puppies": {
         "males": [
-          "Glamar RAIDEN",
-          "Glamar RAIT COISE",
-          "REIDZHENALD",
-          "Glamar REIN",
-          "Glamar ROISE"
+          { "name": "Glamar RAIDEN" },
+          { "name": "Glamar RAIT COISE" },
+          { "name": "REIDZHENALD" },
+          { "name": "Glamar REIN" },
+          { "name": "Glamar ROISE" }
         ],
-        "females": ["Glamar RUTSI", "Glamar RUTEL`"]
+        "females": [{ "name": "Glamar RUTSI" }, { "name": "Glamar RUTEL`" }]
       }
     },
     {
       "date": "05.03.2019",
       "litter": "П/P",
       "parents": {
-        "father": "TACILLAN YES PLEASE",
-        "mother": "STERNE GRINSEN GLAFIRA GLAMAR"
+        "father": { "name": "TACILLAN YES PLEASE" },
+        "mother": {
+          "name": "Sterne Grinsen GLAFIRA Glamar",
+          "link": "/dogs/33"
+        }
       },
       "puppies": {
         "males": [
-          "Glamar PERFECT PERFORMANCE",
-          "Glamar PLEASE ENJOY",
-          "Glamar PETR PERVIY",
-          "Glamar PATRICK PALADIN IZ PETERBURGA"
+          { "name": "Glamar PERFECT PERFORMANCE", "link": "/dogs/38" },
+          { "name": "Glamar PLEASE ENJOY", "link": "/dogs/36" },
+          { "name": "Glamar PETR PERVIY", "link": "/dogs/35" },
+          { "name": "Glamar PATRICK PALADIN IZ PETERBURGA", "link": "/dogs/37" }
         ]
       }
     },
@@ -217,32 +275,43 @@
       "date": "14.04.2018",
       "litter": "О/O",
       "parents": {
-        "father": "AUSTERVITAS FON BARON",
-        "mother": "Glamar ISTEL`"
+        "father": { "name": "AUSTERVITAS FON BARON" },
+        "mother": { "name": "Glamar ISTEL`" }
       },
       "puppies": {
         "males": [
-          "Glamar OTKROVENIE",
-          "Glamar ONIKS",
-          "Glamar OLAF",
-          "Glamar ORCHI"
+          { "name": "Glamar OTKROVENIE" },
+          { "name": "Glamar ONIKS" },
+          { "name": "Glamar OLAF" },
+          { "name": "Glamar ORCHI" }
         ],
-        "females": ["Glamar OBAYANIE", "Glamar ONLY YOU", "Glamar OLLI"]
+        "females": [
+          { "name": "Glamar OBAYANIE" },
+          { "name": "Glamar ONLY YOU" },
+          { "name": "Glamar OLLI" }
+        ]
       }
     },
     {
       "date": "09.04.2016",
       "litter": "Н/N",
       "parents": {
-        "father": "Glamar ESKALIBUR",
-        "mother": "BEATHA GLAMAR GRAND CALVERA"
+        "father": { "name": "Glamar ESKALIBUR" },
+        "mother": {
+          "name": "UISCE BEATHA Glamar Grand Calvera",
+          "link": "/dogs/23"
+        }
       },
       "puppies": {
-        "males": ["Glamar NAPOLEON", "Glamar NERON", "Glamar NYUTON"],
+        "males": [
+          { "name": "Glamar NAPOLEON", "link": "/dogs/34" },
+          { "name": "Glamar NERON" },
+          { "name": "Glamar NYUTON" }
+        ],
         "females": [
-          "Glamar NIKOLETTA",
-          "Glamar NEFERTITI",
-          "Glamar NIKA NEVSKAYA"
+          { "name": "Glamar NIKOLETTA" },
+          { "name": "Glamar NEFERTITI" },
+          { "name": "Glamar NIKA NEVSKAYA" }
         ]
       }
     },
@@ -250,20 +319,20 @@
       "date": "03.03.2016",
       "litter": "М/M",
       "parents": {
-        "father": "AUSTERVITAS RAIVIS RIDZHOIS",
-        "mother": "ROMAN-KOSH KALIMBA KITCH"
+        "father": { "name": "AUSTERVITAS RAIVIS RIDZHOIS" },
+        "mother": { "name": "ROMAN-KOSH KALIMBA KITCH" }
       },
       "puppies": {
         "males": [
-          "Glamar MATT MACGREGOR",
-          "Glamar MONFERRAN",
-          "Glamar MAYBACH",
-          "Glamar MARSHAL"
+          { "name": "Glamar MATT MACGREGOR" },
+          { "name": "Glamar MONFERRAN" },
+          { "name": "Glamar MAYBACH" },
+          { "name": "Glamar MARSHAL" }
         ],
         "females": [
-          "Glamar MASSANDRA",
-          "Glamar MADJEN KICH",
-          "Glamar MORGANA LE FEY"
+          { "name": "Glamar MASSANDRA" },
+          { "name": "Glamar MADJEN KICH" },
+          { "name": "Glamar MORGANA LE FEY" }
         ]
       }
     },
@@ -271,61 +340,82 @@
       "date": "20.12.2015",
       "litter": "Л/L",
       "parents": {
-        "father": "SILVER STONE ASTRONAUT",
-        "mother": "AUSTERVITAS SHANTAL"
+        "father": { "name": "SILVER STONE ASTRONAUT" },
+        "mother": { "name": "AUSTERVITAS SHANTAL" }
       },
       "puppies": {
-        "females": ["Glamar LAGERDA", "Glamar LORIANNA", "Glamar LIONELLA"]
+        "females": [
+          { "name": "Glamar LAGERDA", "link": "/dogs/32" },
+          { "name": "Glamar LORIANNA" },
+          { "name": "Glamar LIONELLA" }
+        ]
       }
     },
     {
       "date": "22.02.2015",
       "litter": "К/K",
       "parents": {
-        "father": "TIERIS VENEDIKT DLJA GLAMAR",
-        "mother": "CRYSTAL SINNERS IN SILK"
+        "father": { "name": "TIERIS VENEDIKT DLJA GLAMAR", "link": "/dogs/26" },
+        "mother": { "name": "CRYSTAL SINNERS IN SILK", "link": "/dogs/25" }
       },
       "puppies": {
-        "males": ["Glamar KRISTOFER ROBIN", "Glamar KROSHKA ROO"],
-        "females": ["Glamar KANGA"]
+        "males": [
+          { "name": "Glamar KRISTOFER ROBIN", "link": "/dogs/29" },
+          { "name": "Glamar KROSHKA ROO", "link": "/dogs/30" }
+        ],
+        "females": [{ "name": "Glamar KANGA", "link": "/dogs/31" }]
       }
     },
     {
       "date": "14.10.2014",
       "litter": "И/I",
       "parents": {
-        "father": "ALERT CHARM EGOR",
-        "mother": "AUSTERVITAS SHANTAL"
+        "father": { "name": "ALERT CHARM EGOR" },
+        "mother": { "name": "AUSTERVITAS SHANTAL" }
       },
       "puppies": {
-        "males": ["Glamar ITAN", "Glamar IRBIS", "Glamar IMIDZH"],
-        "females": ["Glamar IVERIYA", "Glamar ISTEL`", "Glamar ISKRINKA"]
+        "males": [
+          { "name": "Glamar ITAN" },
+          { "name": "Glamar IRBIS" },
+          { "name": "Glamar IMIDZH" }
+        ],
+        "females": [
+          { "name": "Glamar IVERIYA" },
+          { "name": "Glamar ISTEL`" },
+          { "name": "Glamar ISKRINKA" }
+        ]
       }
     },
     {
       "date": "01.10.2014",
       "litter": "З/Z",
       "parents": {
-        "father": "TIERIS VENEDIKT DLJA GLAMAR",
-        "mother": "CRYSTAL SINNERS IN SILK"
+        "father": { "name": "TIERIS VENEDIKT DLJA GLAMAR", "link": "/dogs/26" },
+        "mother": { "name": "CRYSTAL SINNERS IN SILK", "link": "/dogs/25" }
       },
       "puppies": {
-        "males": ["Glamar ZEPHYR", "Glamar ZORRO"]
+        "males": [
+          { "name": "Glamar ZEPHYR", "link": "/dogs/28" },
+          { "name": "Glamar ZORRO", "link": "/dogs/27" }
+        ]
       }
     },
     {
       "date": "18.02.2012",
       "litter": "Ж/ZH",
       "parents": {
-        "father": "LONDON CHERNI STRAZHNIK SNOWBLACK",
-        "mother": "Glamar EHASIYA"
+        "father": { "name": "LONDON CHERNI STRAZHNIK SNOWBLACK" },
+        "mother": { "name": "Glamar EHASIYA" }
       },
       "puppies": {
-        "males": ["Glamar ZHAN POL` GOT`YE", "Glamar ZHUL` VERN"],
+        "males": [
+          { "name": "Glamar ZHAN POL` GOT`YE" },
+          { "name": "Glamar ZHUL` VERN" }
+        ],
         "females": [
-          "Glamar ZHAKLIN ZHERIKA",
-          "Glamar ZHEMCUZHINA BALTII",
-          "Glamar ZHASMIN"
+          { "name": "Glamar ZHAKLIN ZHERIKA" },
+          { "name": "Glamar ZHEMCUZHINA BALTII" },
+          { "name": "Glamar ZHASMIN" }
         ]
       }
     },
@@ -333,53 +423,63 @@
       "date": "02.10.2009",
       "litter": "Е/E",
       "parents": {
-        "father": "GLOBETROTTER Grand Calvera",
-        "mother": "Glamar VASILISA PREMUDRAYA"
+        "father": { "name": "GLOBETROTTER Grand Calvera" },
+        "mother": { "name": "Glamar VASILISA PREMUDRAYA", "link": "/dogs/10" }
       },
       "puppies": {
         "males": [
-          "Glamar ELISEY",
-          "Glamar EKSKALIBUR",
-          "Glamar EGO VYSOCHESTVO"
+          { "name": "Glamar ELISEY" },
+          { "name": "Glamar EKSKALIBUR" },
+          { "name": "Glamar EGO VYSOCHESTVO" }
         ],
-        "females": ["Glamar EYO VELICHESTVO", "Glamar EHASIYA"]
+        "females": [
+          { "name": "Glamar EYO VELICHESTVO" },
+          { "name": "Glamar EHASIYA" }
+        ]
       }
     },
     {
       "date": "07.07.2009",
       "litter": "Д/D",
       "parents": {
-        "father": "Glamar BISMARCK",
-        "mother": "VIVA VERITAS"
+        "father": { "name": "Glamar BISMARCK" },
+        "mother": { "name": "VIVA VERITAS", "link": "/dogs/9" }
       },
       "puppies": {
         "males": [
-          "Glamar DAGIR SHEIK",
-          "Glamar DAYNAR KHAN",
-          "Glamar DARKHAN EMIR"
+          { "name": "Glamar DAGIR SHEIK" },
+          { "name": "Glamar DAYNAR KHAN" },
+          { "name": "Glamar DARKHAN EMIR" }
         ],
-        "females": ["Glamar DARINA", "Glamar DINARA", "Glamar DAMIRA"]
+        "females": [
+          { "name": "Glamar DARINA" },
+          { "name": "Glamar DINARA" },
+          { "name": "Glamar DAMIRA" }
+        ]
       }
     },
     {
       "date": "23.12.2007",
       "litter": "Г/G",
       "parents": {
-        "father": "CHERNI STRAZHNIK v.d.Mandelroschen",
-        "mother": "HOROSHAYA DEVOCHKA iz Nevskoy Troyki"
+        "father": { "name": "CHERNI STRAZHNIK v.d.Mandelroschen" },
+        "mother": {
+          "name": "HOROSHAYA DEVOCHKA iz Nevskoy Troyki",
+          "link": "/dogs/5"
+        }
       },
       "puppies": {
         "males": [
-          "Glamar GEORG WILHELM",
-          "Glamar GALANT CAVALIER",
-          "Glamar GRAND CANYON",
-          "Glamar GLEN RIVER",
-          "Glamar GOOD BOY"
+          { "name": "Glamar GEORG WILHELM" },
+          { "name": "Glamar GALANT CAVALIER" },
+          { "name": "Glamar GRAND CANYON" },
+          { "name": "Glamar GLEN RIVER" },
+          { "name": "Glamar GOOD BOY" }
         ],
         "females": [
-          "Glamar GABRIELLA DEL GROSSO",
-          "Glamar GLORIA GAYNOR",
-          "Glamar GERMIONA QUEEN"
+          { "name": "Glamar GABRIELLA DEL GROSSO" },
+          { "name": "Glamar GLORIA GAYNOR" },
+          { "name": "Glamar GERMIONA QUEEN" }
         ]
       }
     },
@@ -387,55 +487,61 @@
       "date": "10.12.2007",
       "litter": "В/V",
       "parents": {
-        "father": "Cherny Strazhnik LUCKY TICKET",
-        "mother": "MATA HARI Grand Favorit"
+        "father": { "name": "Cherny Strazhnik LUCKY TICKET" },
+        "mother": { "name": "MATA HARI Grand Favorit", "link": "/dogs/3" }
       },
       "puppies": {
         "males": [
-          "Glamar VERDER",
-          "Glamar VALSAR",
-          "Glamar VALMONT",
-          "Glamar VISCOUNT VALTER",
-          "Glamar VEND"
+          { "name": "Glamar VERDER" },
+          { "name": "Glamar VALSAR" },
+          { "name": "Glamar VALMONT" },
+          { "name": "Glamar VISCOUNT VALTER" },
+          { "name": "Glamar VEND" }
         ],
-        "females": ["Glamar VALENSIA", "Glamar VICKOL'"]
+        "females": [
+          { "name": "Glamar VALENSIA" },
+          { "name": "Glamar VICKOL'", "link": "/dogs/21" }
+        ]
       }
     },
     {
       "date": "03.11.2007",
       "litter": "Б/B",
       "parents": {
-        "father": "Cherny Strazhnik MAESTRO MOZART",
-        "mother": "SHOW GIRL iz Nevskoy Troyki"
+        "father": { "name": "Cherny Strazhnik MAESTRO MOZART" },
+        "mother": { "name": "SHOW GIRL iz Nevskoy Troyki", "link": "/dogs/7" }
       },
       "puppies": {
         "males": [
-          "Glamar BISMARCK",
-          "Glamar BASCO DOR HOLL",
-          "Glamar BERNARD SHOW",
-          "Glamar BONAPART"
+          { "name": "Glamar BISMARCK" },
+          { "name": "Glamar BASCO DOR HOLL" },
+          { "name": "Glamar BERNARD SHOW" },
+          { "name": "Glamar BONAPART" }
         ],
-        "females": ["Glamar BACCARDI BLACK", "Glamar BEATRICE"]
+        "females": [
+          { "name": "Glamar BACCARDI BLACK" },
+          { "name": "Glamar BEATRICE" }
+        ]
       }
     },
     {
       "date": "09.12.2006",
       "litter": "А/A",
       "parents": {
-        "father": "Cherny Strazhnik CHEEKY CHAP",
-        "mother": "ZINAIDA"
+        "father": { "name": "Cherny Strazhnik CHEEKY CHAP" },
+        "mother": { "name": "ZINAIDA" }
       },
       "puppies": {
         "males": [
-          "Glamar ALEN DELON",
-          "Glamar ADMIRAL AMBASSADOR",
-          "Glamar ARMSTRONG SCHWARZ",
-          "Glamar ARMANY ARISTOCRAT"
+          { "name": "Glamar ALEN DELON", "link": "/dogs/13" },
+          { "name": "Glamar ADMIRAL AMBASSADOR", "link": "/dogs/14" },
+          { "name": "Glamar ARMSTRONG SCHWARZ", "link": "/dogs/15" },
+          { "name": "Glamar ARMANY ARISTOCRAT", "link": "/dogs/16" }
         ],
         "females": [
-          "Glamar AFRODITA NEVSKAYA",
-          "Glamar AMAZONKA",
-          "Glamar AYDANA GIZMAH"
+          { "name": "Glamar AFRODITA NEVSKAYA", "link": "/dogs/17" },
+          { "name": "Glamar AMAZONKA", "link": "/dogs/18" },
+          { "name": "Glamar AYDANA GIZMAH", "link": "/dogs/19" }
         ]
       }
     }

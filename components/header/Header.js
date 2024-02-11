@@ -14,6 +14,10 @@ const linksHeader = [
     link: "/dogs",
   },
   {
+    name: "Щенки",
+    link: "/puppies",
+  },
+  {
     name: "Пометы",
     link: "/litters",
   },
@@ -25,10 +29,10 @@ const linksHeader = [
     name: "Статьи",
     link: "/articles",
   },
-  // {
-  //   name: "О нас",
-  //   link: "/about",
-  // },
+  {
+    name: "О нас",
+    link: "/about",
+  },
   {
     name: "Контакты",
     link: "/contacts",

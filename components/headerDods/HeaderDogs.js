@@ -32,7 +32,7 @@ export default function HeaderDogs() {
           active: pathname.startsWith("/australian_terrier"),
         })}
       >
-        Австралийский терьер
+        Австралийский шелковистый терьер
       </Link>
     </div>
   );

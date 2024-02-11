@@ -53,6 +53,9 @@
           &__parents {
             flex: 2;
             text-align: start;
+            a {
+              color: darkblue;
+            }
           }
           &__puppies {
             flex: 2;
@@ -68,6 +71,11 @@
                   &__title {
                     font-weight: 700;
                     text-decoration: underline;
+                  }
+                  &__item {
+                    a {
+                      color: darkblue;
+                    }
                   }
                 }
               }

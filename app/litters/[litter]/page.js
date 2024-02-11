@@ -3,6 +3,7 @@
 import Loader from "@/components/loader/Loader";
 import "./littersPageBeforeAfter.scss";
 import { useLitters } from "@/hooks/useLitters";
+import Link from "next/link";
 
 // export async function generateStaticParams() {
 //   const litters = await fetch("/api/litters.json").then((res) => res.json());
@@ -17,6 +18,17 @@ import { useLitters } from "@/hooks/useLitters";
 export default function LittersPageBeforeAfter({ params }) {
   const { data } = useLitters();
   const { litter } = params;
+
+  function updateLink(link, name) {
+    if (link && link.startsWith("http")) {
+      return <a href={link}>{name}</a>;
+    } else if (link && link.startsWith("/dogs")) {
+      return <Link href={link}>{name}</Link>;
+    } else {
+      return name;
+    }
+  }
+
   return (
     <div className="litters-page-before-after">
       {!data ? (
@@ -36,10 +48,18 @@ export default function LittersPageBeforeAfter({ params }) {
                 </div>
                 <div className="item__parents">
                   <div className="parents__father">
-                    s. {item.parents.father}
+                    s.{" "}
+                    {updateLink(
+                      item.parents.father.link,
+                      item.parents.father.name
+                    )}
                   </div>
                   <div className="parents__mother">
-                    d. {item.parents.mother}
+                    d.{" "}
+                    {updateLink(
+                      item.parents.mother.link,
+                      item.parents.mother.name
+                    )}
                   </div>
                 </div>
                 <div className="item__puppies">
@@ -49,7 +69,7 @@ export default function LittersPageBeforeAfter({ params }) {
                       {item.puppies.males.map((item, i) => {
                         return (
                           <div className="males__item" key={i}>
-                            {item}
+                            {updateLink(item.link, item.name)}
                           </div>
                         );
                       })}
@@ -61,7 +81,7 @@ export default function LittersPageBeforeAfter({ params }) {
                       {item.puppies.females.map((item, i) => {
                         return (
                           <div className="females__item" key={i}>
-                            {item}
+                            {updateLink(item.link, item.name)}
                           </div>
                         );
                       })}

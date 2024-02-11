@@ -62,6 +62,11 @@ export default function DogPage({ params }) {
                         <div className="info__date-birth">
                           Дата рождения: <span>{dogFilter.dateBirth}</span>
                         </div>
+                        {dogFilter.dateDeath !== "" && (
+                          <div className="info__date-birth">
+                            Дата смерти: <span>{dogFilter.dateDeath}</span>
+                          </div>
+                        )}
                         <div className="info__titles">
                           Титулы:{" "}
                           {dogFilter.titles.map((title, i) => (

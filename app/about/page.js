@@ -63,7 +63,7 @@ export default function AboutPage() {
         </div>
         <div className="achievements__item">
           <div className="item__title">
-            99 <span>щенков</span>
+            150+ <span>щенков</span>
           </div>
           <div className="item__text">
             Родились в питомнике с 2006 года и осчастливили собой столько же

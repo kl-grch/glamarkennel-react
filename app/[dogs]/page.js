@@ -25,6 +25,7 @@ export default function DogsPage({ params }) {
         <Loader />
       ) : (
         data.dogs
+          .filter((item) => item.imgMain !== "") // без фото
           .filter((item) => {
             if (dogs === "schnauzer") {
               return item.breed === "schnauzer";

@@ -397,12 +397,12 @@
       "breed": "schnauzer",
       "imgMain": "/images/dogs/23/Uichi.jpg",
       "dateBirth": "25.06.2009",
-      "dateDeath": "",
-      "titles": ["JCH RUS", "CH RUS", "2xCACIB"],
+      "dateDeath": "25.08.2023",
+      "titles": ["JCH RUS", "CH RUS", "RKF", "2xCACIB"],
       "location": "Россия, Санкт-Петербург / Russia, Saint Petersburg",
       "breeder": "Havelkova Denisa",
       "owner": "Алексеева И. / Alexeeva I.",
-      "images": ["1.jpg", "2.jpg", "3.png"]
+      "images": ["3.png", "4.jpg", "1.jpg", "2.jpg"]
     },
     {
       "id": 24,
@@ -668,7 +668,7 @@
       "location": "Италия / Italy",
       "breeder": "Алексеева И. / Alexeeva I.",
       "owner": "FAVARO S., Masaal kennel",
-      "images": ["1.png", "2.png"]
+      "images": ["1.png"]
     },
     {
       "id": 41,
@@ -696,6 +696,20 @@
       "breeder": "Алексеева И. / Alexeeva I.",
       "owner": "NORRENA A., Tacillan kennel",
       "images": ["1.png", "2.png"]
+    },
+    {
+      "id": 43,
+      "name": "TEAM PLAYER Gagatek",
+      "gender": "male",
+      "breed": "schnauzer",
+      "imgMain": "/images/dogs/43/TeamPlayerGagatek.JPG",
+      "dateBirth": "28.02.2022",
+      "dateDeath": "",
+      "titles": ["JCH RUS", "JCH RKF", "JCW", "CH RUS", "СН RKF", "T-1"],
+      "location": "",
+      "breeder": "Alina Stelmach, Agata Stelmach, Poland",
+      "owner": "Алексеева И.",
+      "images": ["1.JPG"]
     }
   ]
 }
