@@ -4,6 +4,7 @@ import Loader from "@/components/loader/Loader";
 import { useDogs } from "@/hooks/useDogs";
 import "./dogsPage.scss";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 export default function DogsPage({ params }) {
   const { data } = useDogs();
@@ -35,6 +36,7 @@ export default function DogsPage({ params }) {
               return item.breed !== "";
             }
           })
+          .sort((a, b) => (a.name > b.name ? 1 : -1))
           .map((item) => (
             <Link key={item.id} href={`/dogs/${item.id}`}>
               <div
