@@ -40,7 +40,7 @@ export default function DogPage({ params }) {
                           <span>
                             {dogFilter.breed === "schnauzer"
                               ? "шнауцер"
-                              : "австралийский терьер"}
+                              : "австралийский шелковистый терьер"}
                           </span>
                         </div>
                         <div className="info__gender">
