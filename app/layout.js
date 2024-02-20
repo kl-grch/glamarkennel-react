@@ -6,6 +6,7 @@ import { Comfortaa } from "next/font/google";
 
 const comfortaa = Comfortaa({ subsets: ["latin"] });
 
+
 export const metadata = {
   title: {
     template: "%s | Glamar | Гламар",
