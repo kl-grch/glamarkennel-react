@@ -87,9 +87,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-      {/* <div className="header__lang">
-        <span>RU</span> | <span>EN</span>
-      </div> */}
     </header>
   );
 }

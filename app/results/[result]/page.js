@@ -4,16 +4,6 @@ import { useResults } from "@/hooks/useResults";
 import "./result.scss";
 import Loader from "@/components/loader/Loader";
 
-// export async function generateStaticParams() {
-//   const years = await fetch("/api/results.json").then((res) => res.json());
-
-//   return Object.keys(years).map((year) => ({
-//     result: year.result,
-//   }));
-// }
-
-// export const dynamicParams = false;
-
 export default function Result({ params }) {
   const { data } = useResults();
   const { result } = params;

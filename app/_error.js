@@ -1,5 +1,3 @@
-"use client";
-
 import "./not-found.scss";
 
 export default function Error() {

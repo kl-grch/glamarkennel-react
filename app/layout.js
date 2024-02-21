@@ -1,3 +1,5 @@
+
+
 import "./globals.scss";
 import "./homePageLayout.scss";
 import Footer from "../components/footer/Footer";

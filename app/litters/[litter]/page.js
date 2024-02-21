@@ -5,16 +5,6 @@ import "./littersPageBeforeAfter.scss";
 import { useLitters } from "@/hooks/useLitters";
 import Link from "next/link";
 
-// export async function generateStaticParams() {
-//   const litters = await fetch("/api/litters.json").then((res) => res.json());
-
-//   return Object.keys(litters).map((item) => ({
-//     litter: item.litter,
-//   }));
-// }
-
-// export const dynamicParams = true;
-
 export default function LittersPageBeforeAfter({ params }) {
   const { data } = useLitters();
   const { litter } = params;
