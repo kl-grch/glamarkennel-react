@@ -1,5 +1,3 @@
-
-
 import "./globals.scss";
 import "./homePageLayout.scss";
 import Footer from "../components/footer/Footer";
@@ -7,7 +5,6 @@ import Header from "../components/header/Header";
 import { Comfortaa } from "next/font/google";
 
 const comfortaa = Comfortaa({ subsets: ["latin"] });
-
 
 export const metadata = {
   title: {
@@ -48,6 +45,7 @@ export const metadata = {
     url: "https://glamarkennel.com/",
     images: ["/images/metainfo/twitter-image.png"],
   },
+  yandexVerification: "f3a6aeb9f22d5523",
 };
 
 export default function RootLayout({ children }) {
