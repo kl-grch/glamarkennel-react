@@ -7,6 +7,11 @@ import { Comfortaa } from "next/font/google";
 const comfortaa = Comfortaa({ subsets: ["latin"] });
 
 export const metadata = {
+  verification: {
+    yandex: "f3a6aeb9f22d5523",
+    google: "GgdjEzVgdjctfCtvm1uCS9dHscCCDSpJhZgILRXgzoE",
+  },
+
   title: {
     template: "%s | Glamar | Гламар",
     default: "Glamar | Гламар",
@@ -45,7 +50,6 @@ export const metadata = {
     url: "https://glamarkennel.com/",
     images: ["/images/metainfo/twitter-image.png"],
   },
-  yandexVerification: "f3a6aeb9f22d5523",
 };
 
 export default function RootLayout({ children }) {
