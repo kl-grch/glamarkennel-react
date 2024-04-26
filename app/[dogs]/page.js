@@ -6,12 +6,29 @@ import "./dogsPage.scss";
 import Link from "next/link";
 import { useState } from "react";
 import Form from "react-bootstrap/Form";
+import Search from "@/components/search/Search";
 
 export default function DogsPage({ params }) {
   const { data } = useDogs();
   const { dogs } = params;
   const [enterSex, setEnterSex] = useState("");
   const [filterText, setFilterText] = useState("All");
+  const [searchText, setSearchText] = useState("");
+
+  const [searchArray, setSearchArray] = useState([]);
+
+  const fetchData = async () => {
+    const response = await data;
+    setSearchArray(response.dogs);
+  };
+
+  if (searchText !== "") {
+    fetchData();
+  }
+
+  const filteredSearchDogs = searchArray.filter((dog) => {
+    return dog.name.toLowerCase().includes(searchText.toLowerCase());
+  });
 
   function updateBackgroungImg(img, breed) {
     if (img === "" && breed === "schnauzer") {
@@ -25,6 +42,24 @@ export default function DogsPage({ params }) {
 
   return (
     <>
+      <Search
+        value={searchText}
+        onChange={(e) => setSearchText(e.target.value)}
+        onClick={searchText !== "" ? fetchData : null}
+      >
+        {filteredSearchDogs.length == 0 ? <p>Мы ничего не нашли</p> : filteredSearchDogs.map((dog) => {
+          return (
+            <Link
+              className="search__link"
+              href={`/dogs/${dog.id}?from=search&text_search=${searchText}`}
+              key={dog.id}
+            >
+              <p style={{ width: "100%" }}>{dog.name}</p>
+            </Link>
+          );
+        })}
+      </Search>
+
       <div className="filter">
         <Form>
           {filterText}
