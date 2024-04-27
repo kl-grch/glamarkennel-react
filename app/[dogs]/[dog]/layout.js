@@ -3,12 +3,6 @@ export async function generateStaticParams() {
     (res) => res.json()
   );
 
-  console.log(
-    dogs.dogs.map((item) => ({
-      dog: String(item.id),
-    }))
-  );
-
   return dogs.dogs.map((item) => ({
     dog: String(item.id),
   }));
