@@ -14,10 +14,6 @@ const linksHeader = [
     link: "/dogs",
   },
   {
-    name: "Щенки",
-    link: "/puppies",
-  },
-  {
     name: "Пометы",
     link: "/litters",
   },
